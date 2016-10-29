@@ -1,24 +1,11 @@
-# nocoding-getting-started
+# Economic-Cycle
 
-**Warning - under active development**
+In the following study:
 
-This is a simple application that can be used to sync (and then view) data from Salesforce using Heroku Connect.
+“Òscar Jordà, Moritz Schularick, and Alan M. Taylor. 2017. “Macrofinancial History and the New Business Cycle Facts.” in NBER Macroeconomics Annual 2016, volume 31, edited by Martin Eichenbaum and Jonathan A. Parker. Chicago: University of Chicago Press."
 
-It supports a Getting Started article on Heroku Dev Center that shows how to set up and manage an app without requiring you to install any development tools.
+the researchers aim to provide convenient no-cost open access under a license to the most extensive long-run macro-financial dataset to date. The database covers 17 advanced economies since 1870 on an annual basis. It comprises 25 real and nominal variables such as bank credit to the non-financial private sector, mortgage lending and long-term house prices. The database captures the near-universe of advanced-country macroeconomic and asset price dynamics, covering on average over 90 percent of advanced-economy output and over 50 percent of world output.
 
-# Deploy
+In this project we will use machine learning algorithm to predict the economic cycle, natural fluctuation of the economy between periods of expansion (growth) and contraction (recession).
 
-The easiest way to deploy this is to push the button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-
-# Verified
-
-If you are not yet a Heroku verified account holder, clicking the Heroku button will prompt you to sign up for Heroku first, and enter billing details.  These details are required for abuse prevention - running this app in the standard configuration won't incur any costs.
-
-# Running
-
-After you verify your Heroku account, clicking the Heroku button will create an app, a database, and a demo instance of Heroku Connect.  Following the resulting link will guide you through final configuration in the Heroku Connect UI.
-
-Please make sure that you are in the intended Heroku app context, as you may not be defaulted to the new Heroku Connect app if you have multiple instances already running.
+The data for this project can be downloaded from this original source: http://www.macrohistory.net/data/.
